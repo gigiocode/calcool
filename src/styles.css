@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2e3e52;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.header > img {
+  background-color: #2e3e52;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  align-items: center;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  background-color: #2e3e52;
+  z-index: 10; /* Garante que a calculadora esteja acima da imagem */
+  padding: 20px;
+  margin-top: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #f2af49;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #f2af49;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 120px;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+footer {
+  background-color: #2e3e52;
+  color: #f2af49;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+footer > a {
+  text-decoration: none;
+  color: #f2af49;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}

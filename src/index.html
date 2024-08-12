@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Preço por Litro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="header">
+        <img src="../assets/page.png" alt="">
+
+    </div>
+    <div class="container">
+        <h1>Calculadora de Preço por Litro</h1>
+        <form id="priceForm">
+            <img src="../assets/icone.png">
+            <label for="price">Preço Total (R$):</label>
+            <input type="number" id="price" name="price" step="0.01" required>
+
+            <label for="volume">Volume da Bebida (ml):</label>
+            <input type="number" id="volume" name="volume" step="0.01" required>
+
+            <button type="submit">Calcular</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+
+    <footer>
+        <a href="https://github.com/gigiocode" target="_blank">&copy; Gigio DEV </a>
+    </footer>
+
+</body>
+
+</html>
